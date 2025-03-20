@@ -4,7 +4,7 @@ import psycopg2
 
 app = Flask(__name__)
 
-# 从环境变量中获取数据库连接信息
+# Get database connection information from environment variables
 db_host = os.getenv("POSTGRES_HOST", "localhost")
 db_name = os.getenv("POSTGRES_DB", "demo")
 db_user = os.getenv("POSTGRES_USER", "user")
