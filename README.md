@@ -14,3 +14,8 @@
 1. Environment variable management in Docker Compose
 2. Environment-specific configurations for development, testing, and production
 3. Advanced usage of Docker Compose networks and volumes
+
+compose-advanced-demo
+├── docker-compose.yml (通用基础配置)
+├── docker-compose.dev.yml (开发环境配置)
+└── docker-compose.prod.yml (生产环境配置)
