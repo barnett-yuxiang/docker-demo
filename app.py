@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Docker Compose!"
+    return "Hello, Docker Compose updated!"
 
 
 if __name__ == "__main__":
