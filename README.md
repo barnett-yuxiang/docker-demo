@@ -16,6 +16,15 @@
 3. Advanced usage of Docker Compose networks and volumes
 
 compose-advanced-demo
-├── docker-compose.yml (通用基础配置)
-├── docker-compose.dev.yml (开发环境配置)
-└── docker-compose.prod.yml (生产环境配置)
+├── docker-compose.yml (Common base)
+├── docker-compose.dev.yml (Development environment)
+└── docker-compose.prod.yml (Production environment)
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
+```
+
+before
+```zsh
+docker compose down -v
+```

@@ -1,0 +1,7 @@
+services:
+  web:
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_ENV=development
+      - DEBUG=True

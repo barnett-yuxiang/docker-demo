@@ -1,0 +1,9 @@
+services:
+  web:
+    environment:
+      - FLASK_ENV=production
+      - DEBUG=False
+    restart: always
+
+  db:
+    restart: always
